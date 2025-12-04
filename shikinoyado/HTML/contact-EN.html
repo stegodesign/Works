@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shikino Yado - Contact</title>
+  <link rel="stylesheet" href="../CSS/reset.css">
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+
+<body>
+  <div class="container">
+    <main>
+      <div class="contact-inner">
+        <h2 class="contact-title">Free Consultation & Inquiries</h2>
+        <div class="contact-p">
+          <p class="contact-subtitle">We will respond within 2 business days after reviewing your inquiry.</p>
+          <p class="contact-caption">*If you need immediate assistance, we recommend contacting us by phone.</p>
+          <p class="caution"><span class="must">*</span> indicates required fields.</p>
+        </div>
+        <form action="#" method="post" class="contact-form" onsubmit="return formsubmit(this);">
+          <div class="name-container contact-container">
+            <label for="name" class="name">Full Name<span class="must">*</span></label>
+            <input type="text" id="firstname" name="firstname" required>
+            <input type="text" id="lastname" name="lastname" required>
+          </div>
+          <div class="email-container contact-container">
+            <label for="email" class="email">Email Address<span class="must">*</span></label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="tel-container contact-container">
+            <label for="phone" class="tel">Phone Number<span class="must">*</span></label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+          <div class="company-container contact-container">
+            <label for="company" class="company">Company Name</label>
+            <input type="text" id="company" name="company">
+          </div>
+          <div class="howcontact-container contact-container">
+            <label for="howcontact" class="howcontact">Preferred Contact Method</label>
+            <input type="radio" id="howcontact-email" name="howcontact" value="email" checked>
+            <label for="howcontact-email">Email</label>
+            <input type="radio" id="howcontact-phone" name="howcontact" value="phone">
+            <label for="howcontact-phone">Phone</label>
+          </div>
+          <div class="message-container contact-container">
+            <label for="message" class="message">Message<span class="must">*</span></label>
+            <textarea id="message-area" name="message-area" rows="5" required></textarea>
+          </div>
+          <div class="contact-btn-container">
+            <input name="submit" type="submit" class="contact-button" value="Send">
+          </div>
+        </form>
+      </div>
+    </main>
+  </div>
+<script src="../script.js"></script>
+</body>
+</html>

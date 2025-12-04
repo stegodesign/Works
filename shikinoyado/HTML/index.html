@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>四季之宿</title>
+  <link rel="stylesheet" href="../CSS/reset.css">
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+
+<body>
+  <div class="container">
+    <main>
+      <div class="scroll-bar">
+        <div class="scrollbar"></div>
+      </div>
+
+      <section class="hero-section">
+        <div class="hero-container">
+          <div class="hero-textcontainer season">
+            <h2 class="hero-title">四季が彩る宿</h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="story-section">
+        <div class="story-container">
+          <div class="story-textcontainer">
+            <div class="story-maintextcontainer">
+              <div class="story-titlecontainer">
+                <h2 class="story-title">四季之宿</h2>
+                <h3 class="story-subtitle">季節ごとに変わる癒しの空間</h3>
+              </div>
+              <p class="story-text">創業100年の伝統を誇る四季温泉宿では、日本の美しい四季を五感で感じながら、心身ともに癒される特別な温泉体験をお楽しみいただけます。山間の静寂に包まれた当宿で、都会の喧騒を忘れ、自然と一体になる贅沢なひとときをお過ごしください。</p>
+            </div>
+            <div class="story-subtextcontainer">
+              <ul>
+                <li class="story-subinfo">100%天然温泉</li>
+                <li class="story-subinfo">四季の絶景</li>
+                <li class="story-subinfo">季節の懐石料理</li>
+                <li class="story-subinfo">伝統的な和の空間</li>
+              </ul>
+            </div>
+          </div>
+          <div class="story-imgcontainer">
+            <img src="../images/story-structure.jpg" alt="">
+          </div>
+        </div>
+        <div class="deco-container">
+          <div class="deco-contents">
+            <div class="deco-info">
+              <ul>
+                <li>100</li>
+                <li>年の歴史</li>
+              </ul>
+              <ul class="deco-center">
+                <li>24</li>
+                <li>時間温泉</li>
+              </ul>
+              <ul>
+                <li>5</li>
+                <li>種類の客室</li>
+              </ul>
+            </div>
+            <div class="deco-tri"></div>
+          </div>
+        </div>  
+      </section>
+
+      <!--春-->
+      <section class="spring-section season-section" id="#">
+        <div class="spring-click-animation"></div>
+        <div class="spring-container">
+          <div class="season-title" id="spring-title">
+            <h2>春のご滞在</h2>
+          </div>
+          <div class="season-btn">
+            <button type="button" class="overview-btn spring-btn" onclick="">概要</button>
+            <button type="button" class="onsen-btn spring-btn" onclick="">温泉</button>
+            <button type="button" class="dishes-btn spring-btn" onclick="">料理</button>
+          </div>
+          <!--概要-->
+          <div class="season-contents" id="overview-contents">
+            <div class="season-textcontainer-left">
+              <div class="season-texttitle">
+                <h3>花笑む季、心ほどける宿時間</h3>
+              </div>
+              <div class="season-textbox">
+                <p>やわらかな陽光とともに、宿の庭園には山桜や椿が咲きほころびます。
+風に運ばれる花の香り、川面を渡るそよ風。冬の静けさがほどけ、命が息づく季節。
+春の四季之宿では、心をほどくような穏やかさと、はじまりの清々しさを感じていただけます。</p>
+              </div>
+            </div>
+            <div class="season-imgcontainer">
+              <img src="../images/onsen-spring.jpg" alt="">
+            </div>
+          </div>
+          <!--温泉-->
+          <div class="season-contents hidden" id="onsen-contents">
+            <div class="season-textcontainer-left">
+              <div class="season-texttitle">
+                <h3>花霞の湯　 湯けむりに浮かぶ桜の景 </h3>
+              </div>
+              <div class="season-textbox">
+                <p>春霞のようにやわらかな朝の光の中、湯けむりが立ちのぼります。
+新緑を眺めながら湯に浸かると、木々の若葉が風にそよぎ、まるで自然と一体になるよう。
+心身をあたため、長い冬を越えた身体をやさしく包み込みます。</p>
+                <a href="../HTML/onsen.html" class="to-onsendetail to-onsendetail-spring">温泉の詳細はこちら</a>         
+              </div>
+            </div>
+            <div class="season-imgcontainer">
+              <img src="../images/onsen-spring.jpg" alt="">
+            </div>
+          </div>
+          <!--料理-->
+          <div class="season-contents hidden" id="dishes-contents">
+            <div class="season-textcontainer-left">
+              <div class="season-texttitle">
+                <h3>芽吹きの膳　 春の恵み、淡き香りとともに </h3>                
+              </div>
+              <div class="season-textbox">
+                <p>春の膳では、海と山の恵みが目覚めの調べを奏でます。
+ほたるいか、筍、貝の旨味を生かした小鉢をはじめ、彩り豊かな旬菜を少しずつ盛り合わせました。
+桜の花びらを模した飾り切りや、淡い器の彩りが、春の訪れをそっと感じさせます。
+見て美しく、味わってやさしい——そんな春のひと皿をご堪能ください。</p>
+                <a href="../HTML/onsen.html" class="to-dishdetail to-dishdetail-spring">料理の詳細はこちら</a>
+              </div>
+            </div>
+            <div class="season-imgcontainer">
+              <img src="../images/dish-spring.jpg" alt="">           
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--夏-->
+      <section class="summer-section season-section">
+        <div class="summer-click-animation"></div>        
+        <div class="summer-container">
+          <div class="season-title" id="summer-title">
+            <h2>夏のご滞在</h2>
+          </div>
+          <div class="season-btn">
+            <button type="button" class="overview-btn summer-btn" onclick="">概要</button>
+            <button type="button" class="onsen-btn summer-btn" onclick="">温泉</button>
+            <button type="button" class="dishes-btn summer-btn" onclick="">料理</button>
+          </div>
+          <!--概要-->
+          <div class="season-contents-reverse" id="overview-contents">
+            <div class="season-textcontainer-right">
+              <div class="season-texttitle">
+                <h3>清流と緑陰に憩う涼やかな時間</h3>
+              </div>
+              <div class="season-textbox">
+                <p>夏の四季之宿は、深い緑と涼やかな水音に包まれます。
+蝉の声も不思議と心地よく、日差しを避ける木陰には風鈴の音が静かに響きます。
+外の暑さを忘れ、涼を感じながら過ごす――そんな夏の贅沢がここにあります。</p>
+              </div>
+            </div>
+            <div class="season-imgcontainer">
+              <img src="../images/onsen-summer.jpg" alt="">
+            </div>
+          </div>
+          <!--温泉-->
+          <div class="season-contents-reverse hidden" id="onsen-contents">
+            <div class="season-textcontainer-right">
+              <div class="season-texttitle">
+                <h3>涼風の湯　 緑陰と水音に包まれて </h3>
+              </div>
+              <div class="season-textbox">
+                <p>夜風が心地よい季節。露天風呂からは蛍が舞う光景をご覧いただけます。
+昼は青空を映す湯面がきらめき、夜は星の瞬きを湯けむり越しに。
+ぬるめの湯でじっくりと身体を癒やし、夏の疲れを流してください。</p>
+                <a href="../HTML/onsen.html" class="to-onsendetail to-onsendetail-summer">温泉の詳細はこちら</a>
+              </div>
+            </div>
+            <div class="season-imgcontainer">
+              <img src="../images/onsen-summer.jpg" alt="">
+            </div>
+          </div>
+          <!--料理-->
+          <div class="season-contents-reverse hidden" id="dishes-contents">
+            <div class="season-textcontainer-right">
+              <div class="season-texttitle">
+                <h3>涼味の膳　 夏の彩り、清涼感あふれる一皿 </h3>
+              </div>
+              <div class="season-textbox">
+                <p>夏の膳は、涼やかさと滋味の調和を大切に。
+透明感のある赤マチの刺身に、しゃぶしゃぶでいただく旬野菜を添えて。
+サザエの壺焼きは磯の香りが広がり、食卓に夏の風を呼び込みます。
+火照った体をやさしく癒やす、涼味の宴をお楽しみください。</p>
+                <a href="../HTML/dish.html" class="to-dishdetail to-dishdetail-summer">料理の詳細はこちら</a>
+              </div>
+            </div>
+            <div class="season-imgcontainer">
+              <img src="../images/dish-summer.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--秋-->
+      <section class="autumn-section season-section">
+        <div class="autumn-click-animation"></div>        
+        <div class="autumn-container">
+          <div class="season-title" id="autumn-title">秋のご滞在</div>
+          <div class="season-btn">
+            <button type="button" class="overview-btn autumn-btn" onclick="">概要</button>
+            <button type="button" class="onsen-btn autumn-btn" onclick="">温泉</button>
+            <button type="button" class="dishes-btn autumn-btn" onclick="">料理</button>
+          </div>
+          <!--概要-->
+          <div class="season-contents" id="overview-contents">
+            <div class="season-textcontainer-left">
+              <div class="season-texttitle">
+                <h3>実りの秋、色づく心</h3>
+              </div>
+              <div class="season-textbox">
+                <p>木々が紅に染まり、澄んだ空気が頬を撫でる頃。
+秋の四季之宿は、一年で最も深い色をまといます。
+虫の音が響く夜、囲炉裏の火が静かに揺れ、時間がゆっくりと流れていきます。</p>
+              </div>
+            </div>
+            <div class="season-imgcontainer">
+              <img src="../images/onsen-autumn.jpg" alt="">
+            </div>
+          </div>
+          <!--温泉-->
+          <div class="season-contents hidden" id="onsen-contents">
+            <div class="season-textcontainer-left">
+              <div class="season-texttitle">
+                <h3>紅葉の湯　 秋色に染まる湯けむり </h3>
+              </div>
+              <div class="season-textbox">
+                <p>湯面に映る紅葉が、まるで絵のよう。
+肌寒い風に包まれながら、湯に肩まで沈める心地よさは、秋ならではの贅沢です。
+湯上がりには、地元の梨や柿を使った冷やし甘味をどうぞ。</p>
+                <a href="../HTML/onsen.html" class="to-onsendetail to-onsendetail-autumn">温泉の詳細はこちら</a>
+              </div>
+            </div>
+            <div class="season-imgcontainer">
+              <img src="../images/onsen-autumn.jpg" alt="">
+            </div>
+          </div>
+          <!--料理-->
+          <div class="season-contents hidden" id="dishes-contents">
+            <div class="season-textcontainer-left">
+              <div class="season-texttitle">
+                <h3>秋彩の膳　 実り豊かな旬の味覚 </h3>
+              </div>
+              <div class="season-textbox">
+                <p>秋の膳は、静かな深みを感じる品々を。
+香ばしく焼き上げた白身魚、旬の野菜の天ぷら。
+器の端にそっと置かれた青もみじが、移ろいの季節を映します。
+素材の味を生かし、華やかさよりも滋味を愉しむ——そんな秋らしい一膳です。</p>
+                <a href="../HTML/dish.html" class="to-dishdetail to-dishdetail-autumn">料理の詳細はこちら</a>
+              </div>
+            </div>
+            <div class="season-imgcontainer">
+              <img src="../images/dish-autumn.jpg" alt="">
+            </div>
+          </div>
+        </div>        
+      </section>
+      <!--冬-->
+      <section class="winter-section season-section">
+        <div class="winter-click-animation"></div>        
+        <div class="winter-container">
+          <div class="season-title" id="winter-title">冬のご滞在</div>
+          <div class="season-btn">
+            <button type="button" class="overview-btn winter-btn" onclick="">概要</button>
+            <button type="button" class="onsen-btn winter-btn" onclick="">温泉</button>
+            <button type="button" class="dishes-btn winter-btn" onclick="">料理</button>
+          </div>
+          <!--概要-->
+          <div class="season-contents-reverse" id="overview-contents">
+            <div class="season-textcontainer-right">
+              <div class="season-texttitle">
+                <h3>静寂に包まれる、冬のぬくもり</h3>
+              </div>
+              <div class="season-textbox">
+                <p>雪の帳が降り、あたりが静まり返る冬。
+四季之宿は、白銀の世界の中にぽつりと灯る温もりの宿となります。
+囲炉裏の火、湯けむり、そして凛とした空気。
+一年の終わりにふさわしい、静かで深い安らぎがここにあります。</p>
+              </div>
+            </div>
+            <div class="season-imgcontainer">
+              <img src="../images/onsen-winter.jpg" alt="">
+            </div>
+          </div>
+          <!--温泉-->
+          <div class="season-contents-reverse hidden" id="onsen-contents">
+            <div class="season-textcontainer-right">
+              <div class="season-texttitle">
+                <h3>雪見の湯　 白銀の世界にひとり佇む </h3>
+              </div>
+              <div class="season-textbox">
+                <p>雪見の湯こそ、冬の四季之宿の醍醐味。
+湯面に舞う雪片を眺めながら、静寂に身をゆだねてください。
+夜は灯籠の光が湯けむりを照らし、幻想的な景色が広がります。</p>
+                <a href="../HTML/onsen.html" class="to-onsendetail to-onsendetail-winter">温泉の詳細はこちら</a>
+              </div>
+            </div>
+            <div class="season-imgcontainer">
+              <img src="../images/onsen-winter.jpg" alt="">
+            </div>
+          </div>
+          <!--料理-->
+          <div class="season-contents-reverse hidden" id="dishes-contents">
+            <div class="season-textcontainer-right">
+              <div class="season-texttitle">
+                <h3>蟹鍋の膳　 冬の味覚、心も体もあたたまる </h3>
+              </div>
+              <div class="season-textbox">
+                <p>冬の味覚といえば、やはり蟹鍋。
+旨みがしみ出した出汁に、ぷりっと身の詰まった蟹、旬の野菜が絡み合い、体の芯から温まります。
+湯気に包まれながら味わうひとときは、寒い季節のごちそうそのもの。
+心もほっとほどける、贅沢な冬の味をお楽しみください。</p>
+                <a href="../HTML/dish.html" class="to-dishdetail to-dishdetail-winter">料理の詳細はこちら</a>
+              </div>
+            </div>
+            <div class="season-imgcontainer">
+              <img src="../images/dish-winter.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="room-section">
+        <div class="room-container">
+          <div class="room-titlecontainer">
+            <h2>客室のご案内</h2>
+            <h3>すべての客室は和の趣を大切にしつつ、快適性を追求しました。<br>和の趣と快適さを備えたお部屋で、心ゆくまでお寛ぎください。</h3>
+          </div>
+          <div class="swiper top-swiper">
+            <div class="swiper-wrapper room-contents-container">
+              <div class="swiper-slide room-content">
+                <img src="../images/teiennnoma.jpg" alt="">
+                <div class="room-subcontainer">
+                  <div class="room-subtitle-container">
+                    <h3 class="room-subtitle">庭園の間</h3>
+                    <a href="../HTML/room.html?room=0" class="to-roomdetail">詳細はこちら</a>
+                  </div>
+                  <div class="room-maincontent-container">
+                    <p>庭先に広がる緑が心を澄ませる。四季折々の息吹を感じながら、静謐なひとときを。</p>
+                    <ul>
+                      <li class="contain-WiFi">Wi-Fiあり</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide room-content">
+                <img src="../images/shikiann.jpg" alt="">
+                <div class="room-subcontainer">
+                  <div class="room-subtitle-container">
+                    <h3 class="room-subtitle">四季庵</h3>
+                    <a href="../HTML/room.html?room=1" class="to-roomdetail">詳細はこちら</a>
+                  </div>
+                  <div class="room-maincontent-container">
+                    <p>窓いっぱいに映る山景の移ろい。春は芽吹き、秋は錦繍、冬は白雪――自然が織りなす彩りを。</p>
+                    <ul>
+                      <li class="contain-WiFi">Wi-Fiあり</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide room-content">
+                <img src="../images/tukikagenoma.jpg" alt="">
+                <div class="room-subcontainer">
+                  <div class="room-subtitle-container">
+                    <h3 class="room-subtitle">月影の間</h3>
+                    <a href="../HTML/room.html?room=2" class="to-roomdetail">詳細はこちら</a>
+                  </div>
+                  <div class="room-maincontent-container">
+                    <p>やわらかな灯りに包まれる夜の和み。月影のように寄り添う、安らぎの空間。</p>
+                    <ul>
+                      <li class="contain-WiFi">Wi-Fiあり</li>
+                      <li class="containe-rotenburo">露天風呂貸切</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide room-content">
+                <img src="../images/miyabinoma.jpg" alt="">
+                <div class="room-subcontainer">
+                  <div class="room-subtitle-container">
+                    <h3 class="room-subtitle">雅の間</h3>
+                    <a href="../HTML/room.html?room=3" class="to-roomdetail">詳細はこちら</a>
+                  </div>
+                  <div class="room-maincontent-container">
+                    <p>伝統美に満ちた設えの中で、ひととき舞うように優雅な時を。</p>
+                    <ul>
+                      <li class="contain-WiFi">Wi-Fiあり</li>
+                      <li class="containe-rotenburo">露天風呂貸切</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide room-content">
+                <img src="../images/kouunntei.jpg" alt="">
+                <div class="room-subcontainer">
+                  <div class="room-subtitle-container">
+                    <h3 class="room-subtitle">行雲亭</h3>
+                    <a href="../HTML/room.html?room=4" class="to-roomdetail">詳細はこちら</a>
+                  </div>
+                  <div class="room-maincontent-container">
+                    <p>流れる雲のように、ただ身を委ねる。時を忘れ、心のままに憩う。</p>
+                    <ul>
+                      <li class="contain-WiFi">Wi-Fiあり</li>
+                      <li class="containe-rotenburo">露天風呂貸切</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev top-prev"></div>
+            <div class="swiper-button-next top-next"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="acces-section" id="acces">
+        <div class="acces-container">
+          <div class="acces-titlecontainer">
+            <h2 class="acces-title">アクセス</h2>
+            <h3 class="acces-subtitle">都心から約二時間、自然に囲まれた立地</h3>
+          </div>
+          <div class="acces-contents-container">
+            <div class="acces-mapcontainer">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.8317691474335!2d139.76448647623138!3d35.68114412997807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1759011025223!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <a href="https://maps.app.goo.gl/MD1EKFtfkP1f7CT18">GoogleMap</a>              
+            <div class="acces-textcontainer">
+              <div class="bycar">
+                <h3 class="bycar-title">車でお越しの場合</h3>
+                <ul class="acces-list">
+                  <li>東京都心から約2時間</li>
+                  <li>東名高速道路 厚木ICより約90分</li>
+                  <li>駐車場：無料（予約不要）</li>
+                  <li>大型バス駐車可能</li>
+                </ul>
+              </div>
+              <div class="bytrainORbus">
+                <div class="bytrainORbus">
+                  <h3 class="bytrainORbus-title">電車・バスでお越しの場合</h3>
+                  <ul class="acces-list">
+                    <li>JR新宿駅より特急で約90分</li>
+                    <li>最寄り駅より無料送迎あり（要予約）</li>
+                    <li>四季之宿前バス停から徒歩1分</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reserve-btn-container">
+            <a href="preparation.html" class="reserve-btn">ご宿泊予約</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq-section" id="faq">
+        <div class="faq-container">
+          <h3 class="faq-title">よくある質問</h3>
+          <div class="qa-container">
+            <input type="checkbox" id="qa1">
+            <label for="qa1" class="qa-title">Q. チェックイン・チェックアウトの時間を教えてください。</label>
+            <p>チェックインは午後3時から、チェックアウトは午前11時までとなっております。</p>
+          </div>
+          <div class="qa-container">
+            <input type="checkbox" id="qa2">
+            <label for="qa2" class="qa-title">Q. 送迎サービスはありますか？</label>
+            <p>はい、最寄り駅からの無料送迎サービスを提供しております。ご利用の際は事前にご予約ください。</p>
+          </div>
+          <div class="qa-container">
+            <input type="checkbox" id="qa3">
+            <label for="qa3" class="qa-title">Q. アレルギーや苦手な食材への対応はできますか？</label>
+            <p>はい、事前にお知らせいただければ、アレルギーや苦手な食材に対応したメニューをご用意いたします。</p>
+          </div>
+          <div class="qa-container">
+            <input type="checkbox" id="qa4">
+            <label for="qa4" class="qa-title">Q. キャンセル料はいつから発生しますか？</label>
+            <p>キャンセル料は、ご宿泊日の3日前から発生いたします。詳細な料金については、予約時の規約をご確認ください。</p>
+          </div>
+          <div class="qa-container">
+            <input type="checkbox" id="qa5">
+            <label for="qa5" class="qa-title">Q. キャッシュレス決済は利用できますか？</label>
+            <p>はい、現金のほかに主要クレカやQRによる決済も可能です。<br>詳細はお問い合わせ時にご案内いたします。</p>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>  
+
+
+
+  <script src="../script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>

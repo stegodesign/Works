@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shikino Yado</title>
+  <link rel="stylesheet" href="../CSS/reset.css">
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+
+<body>
+  <div class="container">
+    <main>
+      <div class="scroll-bar">
+        <div class="scrollbar"></div>
+      </div>
+
+      <section class="hero-section">
+        <div class="hero-container">
+          <div class="hero-textcontainer season">
+            <h2 class="hero-title">Four Seasons, Colored by Nature</h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="story-section">
+        <div class="story-container">
+          <div class="story-textcontainer">
+            <div class="story-maintextcontainer">
+              <div class="story-titlecontainer">
+                <h2 class="story-title">Shikino Yado</h2>
+                <h3 class="story-subtitle">A healing space that changes with the seasons</h3>
+              </div>
+              <p class="story-text">With a tradition of 100 years, Shikino Yado offers a special hot spring experience where you can feel Japan's beautiful four seasons through all five senses and find healing for both body and mind. At our inn nestled in mountain tranquility, forget the hustle and bustle of the city and spend a luxurious moment becoming one with nature.</p>
+            </div>
+            <div class="story-subtextcontainer">
+              <ul>
+                <li class="story-subinfo">100% Natural Hot Spring</li>
+                <li class="story-subinfo">Four Seasons Scenery</li>
+                <li class="story-subinfo">Seasonal Kaiseki Cuisine</li>
+                <li class="story-subinfo">Traditional Japanese Space</li>
+              </ul>
+            </div>
+          </div>
+          <div class="story-imgcontainer">
+            <img src="../images/story-structure.jpg" alt="">
+          </div>
+        </div>
+        <div class="deco-container">
+          <div class="deco-contents">
+            <div class="deco-info">
+              <ul>
+                <li>100</li>
+                <li>Years of History</li>
+              </ul>
+              <ul class="deco-center">
+                <li>24</li>
+                <li>Hour Hot Spring</li>
+              </ul>
+              <ul>
+                <li>5</li>
+                <li>Types of Rooms</li>
+              </ul>
+            </div>
+            <div class="deco-tri"></div>
+          </div>
+        </div>  
+      </section>
+
+      <!--Spring-->
+      <section class="spring-section season-section" id="#">
+        <div class="spring-click-animation"></div>
+        <div class="spring-container">
+          <div class="season-title" id="spring-title">
+            <h2>Spring Stay</h2>
+          </div>
+          <div class="season-btn">
+            <button type="button" class="overview-btn spring-btn" onclick="">Overview</button>
+            <button type="button" class="onsen-btn spring-btn" onclick="">Hot Spring</button>
+            <button type="button" class="dishes-btn spring-btn" onclick="">Cuisine</button>
+          </div>
+          <!--Overview-->
+          <div class="season-contents" id="overview-contents">
+            <div class="season-textcontainer-left">
+              <div class="season-texttitle">
+                <h3>Blooming Season, Heart Finds Peace</h3>
+              </div>
+              <div class="season-textbox">
+                <p>With gentle spring sunlight, cherry blossoms and camellias bloom in the inn's garden. The scent of flowers carried on the breeze, gentle winds crossing the river. As winter's silence yields, life awakens. At Shikino Yado in spring, you'll feel a serene calmness and the freshness of new beginnings.</p>
+              </div>
+            </div>
+            <div class="season-imgcontainer">
+              <img src="../images/onsen-spring.jpg" alt="">
+            </div>
+          </div>
+          <!--Hot Spring-->
+          <div class="season-contents hidden" id="onsen-contents">
+            <div class="season-textcontainer-left">
+              <div class="season-texttitle">
+                <h3>Spring Mist Bath – Cherry Blossoms Floating in Mist</h3>
+              </div>
+              <div class="season-textbox">
+                <p>In the soft light of spring dawn, steam rises gently. Bathing while gazing at fresh green leaves, as if becoming one with nature. Your body, having endured the long winter, is gently warmed and healed.</p>
+                <a href="../HTML/onsen-EN.html" class="to-onsendetail to-dishdetail-spring">Learn more about our hot spring</a>
+              </div>
+            </div>
+            <div class="season-imgcontainer">
+              <img src="../images/onsen-spring.jpg" alt="">
+            </div>
+          </div>
+          <!--Cuisine-->
+          <div class="season-contents hidden" id="dishes-contents">
+            <div class="season-textcontainer-left">
+              <div class="season-texttitle">
+                <h3>Spring Awakening Tray – Spring's Gifts with Delicate Aroma</h3>                
+              </div>
+              <div class="season-textbox">
+                <p>Spring's cuisine celebrates the awakening of sea and mountain. Beginning with small dishes highlighting firefly squid, bamboo shoots, and shellfish, we present a colorful array of seasonal vegetables in small portions. Cherry blossom-shaped decorative cuts and pale tableware gently convey spring's arrival. Beautiful to behold, gentle to taste – enjoy this truly spring-like presentation.</p>
+                <a href="../HTML/dish-EN.html" class="to-dishdetail to-dishdetail-spring">Learn more about our cuisine</a>
+              </div>
+            </div>
+            <div class="season-imgcontainer">
+              <img src="../images/dish-spring.jpg" alt="">           
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Summer-->
+      <section class="summer-section season-section">
+        <div class="summer-click-animation"></div>
+        <div class="summer-container">
+          <div class="season-title" id="summer-title">
+            <h2>Summer Stay</h2>
+          </div>
+          <div class="season-btn">
+            <button type="button" class="overview-btn summer-btn" onclick="">Overview</button>
+            <button type="button" class="onsen-btn summer-btn" onclick="">Hot Spring</button>
+            <button type="button" class="dishes-btn summer-btn" onclick="">Cuisine</button>
+          </div>
+          <!--Overview-->
+          <div class="season-contents-reverse" id="overview-contents">
+            <div class="season-textcontainer-right">
+              <div class="season-texttitle">
+                <h3>Cool Hours Under Clear Streams and Green Shade</h3>
+              </div>
+              <div class="season-textbox">
+                <p>Summer at Shikino Yado is wrapped in deep green and refreshing sounds of flowing water. The cicadas' song is surprisingly soothing, and wind chimes ring softly in the shade away from direct sunlight. Forget the summer heat outside and spend cool, luxurious hours here.</p>
+              </div>
+            </div>
+            <div class="season-imgcontainer">
+              <img src="../images/onsen-summer.jpg" alt="">
+            </div>
+          </div>
+          <!--Hot Spring-->
+          <div class="season-contents-reverse hidden" id="onsen-contents">
+            <div class="season-textcontainer-right">
+              <div class="season-texttitle">
+                <h3>Cool Breeze Bath – Enveloped by Green Shade and Water Sounds</h3>
+              </div>
+              <div class="season-textbox">
+                <p>When the night breeze is most pleasant, you may see fireflies dancing above the outdoor bath. By day, the water's surface sparkles reflecting blue sky; by night, stars twinkle through the mist. Soak in warm water to gently heal your body and wash away summer's fatigue.</p>
+                <a href="../HTML/onsen-EN.html" class="to-onsendetail to-dishdetail-spring">Learn more about our hot spring</a>
+              </div>
+            </div>
+            <div class="season-imgcontainer">
+              <img src="../images/onsen-summer.jpg" alt="">
+            </div>
+          </div>
+          <!--Cuisine-->
+          <div class="season-contents-reverse hidden" id="dishes-contents">
+            <div class="season-textcontainer-right">
+              <div class="season-texttitle">
+                <h3>Cool Taste Tray – Summer's Colors, Refreshing and Light</h3>
+              </div>
+              <div class="season-textbox">
+                <p>Summer's cuisine balances refreshment with deep flavor. Clear red tuna sashimi paired with fresh vegetables enjoyed as shabu-shabu. Turban shell cooked in its own shell releases an ocean fragrance, bringing summer breeze to your table. Enjoy this refreshing feast that gently soothes your flushed body.</p>
+                <a href="../HTML/dish-EN.html" class="to-dishdetail to-dishdetail-spring">Learn more about our cuisine</a>
+              </div>
+            </div>
+            <div class="season-imgcontainer">
+              <img src="../images/dish-summer.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Autumn-->
+      <section class="autumn-section season-section">
+        <div class="autumn-click-animation"></div>        
+        <div class="autumn-container">
+          <div class="season-title" id="autumn-title">Autumn Stay</div>
+          <div class="season-btn">
+            <button type="button" class="overview-btn autumn-btn" onclick="">Overview</button>
+            <button type="button" class="onsen-btn autumn-btn" onclick="">Hot Spring</button>
+            <button type="button" class="dishes-btn autumn-btn" onclick="">Cuisine</button>
+          </div>
+          <!--Overview-->
+          <div class="season-contents" id="overview-contents">
+            <div class="season-textcontainer-left">
+              <div class="season-texttitle">
+                <h3>Abundant Autumn, Hearts Turned Golden</h3>
+              </div>
+              <div class="season-textbox">
+                <p>As trees turn crimson and crisp air touches your cheeks. Shikino Yado in autumn wears the year's deepest colors. At night, insect songs echo and a hearth fire flickers gently, as time flows slowly.</p>
+              </div>
+            </div>
+            <div class="season-imgcontainer">
+              <img src="../images/onsen-autumn.jpg" alt="">
+            </div>
+          </div>
+          <!--Hot Spring-->
+          <div class="season-contents hidden" id="onsen-contents">
+            <div class="season-textcontainer-left">
+              <div class="season-texttitle">
+                <h3>Autumn Foliage Bath – Steaming Mist Colored by Fall</h3>
+              </div>
+              <div class="season-textbox">
+                <p>Autumn leaves reflected on the water's surface appear like a painting. The comfort of submerging to your shoulders in warm water while wrapped in cool breezes is autumn's unique luxury. After bathing, enjoy chilled sweets made with local pears and persimmons.</p>
+                <a href="../HTML/onsen-EN.html" class="to-onsendetail to-dishdetail-spring">Learn more about our hot spring</a>
+              </div>
+            </div>
+            <div class="season-imgcontainer">
+              <img src="../images/onsen-autumn.jpg" alt="">
+            </div>
+          </div>
+          <!--Cuisine-->
+          <div class="season-contents hidden" id="dishes-contents">
+            <div class="season-textcontainer-left">
+              <div class="season-texttitle">
+                <h3>Autumn Colors Tray – Abundant Harvest Flavors</h3>
+              </div>
+              <div class="season-textbox">
+                <p>Autumn's cuisine presents dishes with quiet depth. Expertly grilled white fish and seasonal vegetable tempura. A delicate green maple leaf placed at the plate's edge reflects autumn's transition. Honoring ingredients' natural flavors while savoring subtlety over grandeur – this is autumn's truly elegant presentation.</p>
+                <a href="../HTML/dish-EN.html" class="to-dishdetail to-dishdetail-spring">Learn more about our cuisine</a>
+              </div>
+            </div>
+            <div class="season-imgcontainer">
+              <img src="../images/dish-autumn.jpg" alt="">
+            </div>
+          </div>
+        </div>        
+      </section>
+      <!--Winter-->
+      <section class="winter-section season-section">
+        <div class="winter-click-animation"></div>        
+        <div class="winter-container">
+          <div class="season-title" id="winter-title">Winter Stay</div>
+          <div class="season-btn">
+            <button type="button" class="overview-btn winter-btn" onclick="">Overview</button>
+            <button type="button" class="onsen-btn winter-btn" onclick="">Hot Spring</button>
+            <button type="button" class="dishes-btn winter-btn" onclick="">Cuisine</button>
+          </div>
+          <!--Overview-->
+          <div class="season-contents-reverse" id="overview-contents">
+            <div class="season-textcontainer-right">
+              <div class="season-texttitle">
+                <h3>Winter's Warmth Embraced in Silence</h3>
+              </div>
+              <div class="season-textbox">
+                <p>As snow falls and silence envelops the world. Shikino Yado becomes a warm haven glowing softly in the silver-white landscape. Hearth fire, steaming mist, and solemn air. Here you'll find the quiet, profound peace befitting year's end.</p>
+              </div>
+            </div>
+            <div class="season-imgcontainer">
+              <img src="../images/onsen-winter.jpg" alt="">
+            </div>
+          </div>
+          <!--Hot Spring-->
+          <div class="season-contents-reverse hidden" id="onsen-contents">
+            <div class="season-textcontainer-right">
+              <div class="season-texttitle">
+                <h3>Snow-Viewing Bath – Standing Alone in the Silver World</h3>
+              </div>
+              <div class="season-textbox">
+                <p>The snow-viewing bath is winter's truest treasure at Shikino Yado. Gaze upon snowflakes dancing on the water's surface and surrender to silence. At night, lantern light illuminates the mist, creating a fantastical landscape.</p>
+                <a href="../HTML/onsen-EN.html" class="to-onsendetail to-dishdetail-spring">Learn more about our hot spring</a>
+              </div>
+            </div>
+            <div class="season-imgcontainer">
+              <img src="../images/onsen-winter.jpg" alt="">
+            </div>
+          </div>
+          <!--Cuisine-->
+          <div class="season-contents-reverse hidden" id="dishes-contents">
+            <div class="season-textcontainer-right">
+              <div class="season-texttitle">
+                <h3>Crab Hot Pot Tray – Winter's Flavors, Body and Heart Warmed</h3>
+              </div>
+              <div class="season-textbox">
+                <p>Winter's flavor treasure is undoubtedly the crab hot pot. Rich umami-infused broth mingles with plump crab and seasonal vegetables, warming you from your core. This moment spent savoring under clouds of steam is winter's ultimate feast. Enjoy this luxurious winter flavor that brings both warmth and peace to heart and body.</p>
+                <a href="../HTML/dish-EN.html" class="to-dishdetail to-dishdetail-spring">Learn more about our cuisine</a>
+              </div>
+            </div>
+            <div class="season-imgcontainer">
+              <img src="../images/dish-winter.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="room-section">
+        <div class="room-container">
+          <div class="room-titlecontainer">
+            <h2>Room Guide</h2>
+            <h3>All our rooms preserve the essence of Japanese tradition while pursuing comfort.<br>Enjoy peaceful relaxation in rooms that blend Japanese aesthetics with modern amenities.</h3>
+          </div>
+          <div class="swiper top-swiper">
+            <div class="swiper-wrapper room-contents-container">
+              <div class="swiper-slide room-content">
+                <img src="../images/teiennnoma.jpg" alt="">
+                <div class="room-subcontainer">
+                  <div class="room-subtitle-container">
+                    <h3 class="room-subtitle">Garden Room</h3>
+                    <a href="../HTML/room-EN.html?room=0" class="to-roomdetail">Learn More</a>
+                  </div>
+                  <div class="room-maincontent-container">
+                    <p>Lush garden greenery clears the mind. Feel nature's breath with each passing season in serene moments.</p>
+                    <ul>
+                      <li class="contain-WiFi">Wi-Fi Available</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide room-content">
+                <img src="../images/shikiann.jpg" alt="">
+                <div class="room-subcontainer">
+                  <div class="room-subtitle-container">
+                    <h3 class="room-subtitle">Four Seasons Hermitage</h3>
+                    <a href="../HTML/room-EN.html?room=1" class="to-roomdetail">Learn More</a>
+                  </div>
+                  <div class="room-maincontent-container">
+                    <p>Window-framed mountain views shift with the seasons. Spring's buds, autumn's crimson, winter's white snow – nature's ever-changing palette.</p>
+                    <ul>
+                      <li class="contain-WiFi">Wi-Fi Available</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide room-content">
+                <img src="../images/tukikagenoma.jpg" alt="">
+                <div class="room-subcontainer">
+                  <div class="room-subtitle-container">
+                    <h3 class="room-subtitle">Moonlight Room</h3>
+                    <a href="../HTML/room-EN.html?room=2" class="to-roomdetail">Learn More</a>
+                  </div>
+                  <div class="room-maincontent-container">
+                    <p>Wrapped in soft light during evening hours. A space of peace that gently embraces you, like moonlight itself.</p>
+                    <ul>
+                      <li class="contain-WiFi">Wi-Fi Available</li>
+                      <li class="containe-rotenburo">Private Open-air Bath</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide room-content">
+                <img src="../images/miyabinoma.jpg" alt="">
+                <div class="room-subcontainer">
+                  <div class="room-subtitle-container">
+                    <h3 class="room-subtitle">Elegance Room</h3>
+                    <a href="../HTML/room-EN.html?room=3" class="to-roomdetail">Learn More</a>
+                  </div>
+                  <div class="room-maincontent-container">
+                    <p>Surrounded by traditional beauty, experience a graceful moment as if dancing through time.</p>
+                    <ul>
+                      <li class="contain-WiFi">Wi-Fi Available</li>
+                      <li class="containe-rotenburo">Private Open-air Bath</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide room-content">
+                <img src="../images/kouunntei.jpg" alt="">
+                <div class="room-subcontainer">
+                  <div class="room-subtitle-container">
+                    <h3 class="room-subtitle">Wandering Cloud Pavilion</h3>
+                    <a href="../HTML/room-EN.html?room=4" class="to-roomdetail">Learn More</a>
+                  </div>
+                  <div class="room-maincontent-container">
+                    <p>Like drifting clouds, simply surrender. Forget time and let your heart rest as it wishes.</p>
+                    <ul>
+                      <li class="contain-WiFi">Wi-Fi Available</li>
+                      <li class="containe-rotenburo">Private Open-air Bath</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev top-prev"></div>
+            <div class="swiper-button-next top-next"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="acces-section" id="acces">
+        <div class="acces-container">
+          <div class="acces-titlecontainer">
+            <h2 class="acces-title">Access</h2>
+            <h3 class="acces-subtitle">Located about two hours from the city center, surrounded by nature</h3>
+          </div>
+          <div class="acces-contents-container">
+            <div class="acces-mapcontainer">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.8317691474335!2d139.76448647623138!3d35.68114412997807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1759011025223!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <a href="https://maps.app.goo.gl/MD1EKFtfkP1f7CT18">Google Map</a>              
+            <div class="acces-textcontainer">
+              <div class="bycar">
+                <h3 class="bycar-title">By Car</h3>
+                <ul class="acces-list">
+                  <li>Approximately 2 hours from Tokyo city center</li>
+                  <li>Approximately 90 minutes from Atsugi IC on Tomei Expressway</li>
+                  <li>Free Parking (no reservation required)</li>
+                  <li>Large bus parking available</li>
+                </ul>
+              </div>
+              <div class="bytrainORbus">
+                <div class="bytrainORbus">
+                  <h3 class="bytrainORbus-title">By Train or Bus</h3>
+                  <ul class="acces-list">
+                    <li>Approximately 90 minutes by express train from JR Shinjuku Station</li>
+                    <li>Complimentary shuttle service from nearest station (reservation required)</li>
+                    <li>1-minute walk from Shikino Yado bus stop</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reserve-btn-container">
+            <a href="preparation-EN.html" class="reserve-btn">Make a Reservation</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq-section" id="faq">
+        <div class="faq-container">
+          <h3 class="faq-title">Frequently Asked Questions</h3>
+          <div class="qa-container">
+            <input type="checkbox" id="qa1">
+            <label for="qa1" class="qa-title">Q. What are the check-in and check-out times?</label>
+            <p>Check-in is from 3:00 PM and check-out is until 11:00 AM.</p>
+          </div>
+          <div class="qa-container">
+            <input type="checkbox" id="qa2">
+            <label for="qa2" class="qa-title">Q. Is shuttle service available?</label>
+            <p>Yes, we offer complimentary shuttle service from the nearest station. Please make a reservation in advance.</p>
+          </div>
+          <div class="qa-container">
+            <input type="checkbox" id="qa3">
+            <label for="qa3" class="qa-title">Q. Can you accommodate allergies or food preferences?</label>
+            <p>Yes, we can prepare alternative menus if you inform us of allergies or dislikes in advance.</p>
+          </div>
+          <div class="qa-container">
+            <input type="checkbox" id="qa4">
+            <label for="qa4" class="qa-title">Q. When does the cancellation fee apply?</label>
+            <p>Cancellation fees apply from 3 days before your stay. Please refer to the booking terms for detailed charges.</p>
+          </div>
+          <div class="qa-container">
+            <input type="checkbox" id="qa5">
+            <label for="qa5" class="qa-title">Q. Do you accept cashless payments?</label>
+            <p>Yes, in addition to cash, we accept major credit cards and QR code payments.<br>Details will be provided during inquiry.</p>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>  
+
+  <script src="../script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>
