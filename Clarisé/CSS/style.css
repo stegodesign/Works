@@ -48,7 +48,7 @@ button,
 a,
 .hgbtn,
 .detail-button {
-  -webkit-tap-highlight-color: transparent; /* モバイルの青ハイライト除去 */
+  -webkit-tap-highlight-color: transparent;
   outline: none;
 }
 
@@ -90,11 +90,11 @@ header {
   
 }
 
-/* add to CSS/style.css near header rules */
+
 .header-container > *,
 .gnav-list,
 .nav-item {
-  min-width: 0;   /* flex 子の縮小を許可 */
+  min-width: 0;
 }
 
 .logo {
@@ -115,12 +115,11 @@ header {
 }
 .header-right-mask,
 button.hgbtn {
-  /* スマホ以外でヘッダー右側のマスクとハンバーガーボタンを非表示にする */
   display: none;
 }
 
 
-/* ハンバーガーの線 */
+/* ハンバーガー */
 .hgbtn {
   position: relative;
   width: 38px;
@@ -170,7 +169,7 @@ button.hgbtn {
     display: none;
     position: fixed;
     top: var(--header-height);
-    right: 0;      /* ← left:0 を右寄せに変更 */
+    right: 0;
     left: auto;
     width: 60%;
     z-index: 1100;
@@ -178,7 +177,6 @@ button.hgbtn {
     transition: transform .3s ease;
     -webkit-overflow-scrolling: touch;
     background: rgba(255,255,255,0.75);
-    /* optional: box-shadow: -8px 0 24px rgba(0,0,0,0.08); */
   }
   #js-nav.open {
     display: block;
@@ -189,13 +187,13 @@ button.hgbtn {
     flex-direction: column;
     gap: var(--space-medium);
     padding: var(--space-medium);
-    align-items: flex-end; /* リンク文字列を右揃えに */
+    align-items: flex-end;
   }
 }
 .gnav-list {
   margin-left: auto;
   max-width: 60%;
-  flex: 1 1 auto;   /* shrink を許可 */
+  flex: 1 1 auto;
   min-width: 0;
   height: auto;
 }
@@ -248,7 +246,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 100vh;
+  height: calc(100vh - var(--header-height));
   padding: var(--space-xlarge) 0;
   align-items: center;
 }
@@ -388,7 +386,7 @@ section {
     font-size: 1.1rem;
   }
   .hero-content-container {
-    height: 80%;
+    height: 100%;
   }
   .hero-scroll {
     right: 50%;
@@ -647,7 +645,6 @@ section {
   flex-direction: column;
   height: 100%;
   padding: var(--space-xlarge) 0;
-  border-radius: 0 0 25px 25px;
   background-color: var(--background-color);
 }
 .design-content-container {
@@ -730,13 +727,23 @@ footer {
   justify-content: space-around;
   width: 100%;
 }
+.footer-main-container .logo {
+  color: var(--white-color);
+}
 .footer-nav-item {
   display: flex;
   flex-direction: column;
   gap: var(--space-medium);
   justify-content: center;
-  padding: var(--space-medium) 0;
 }
 .footer-nav-item.nav-item-menu {
   font-size: 1rem;
+}
+@media (min-width: 481px) {
+  .footer-main-container .logo {
+    font-size: 3rem;
+  }
+  .footer-nav-item {
+    padding-top: var(--space-small);
+  }
 }

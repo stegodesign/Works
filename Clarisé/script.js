@@ -1,4 +1,3 @@
-// 置換案（jQuery を使わない）
 const Humburger = document.getElementById('js-hg');
 const Nav = document.getElementById('js-nav');
 
